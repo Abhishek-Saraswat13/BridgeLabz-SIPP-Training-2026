@@ -15,7 +15,7 @@ public class coffeeCounter {
 
             System.out.print("Enter quantity: ");
             int quantity = sc.nextInt();
-            sc.nextLine(); // consume newline
+            sc.nextLine(); 
 
             double price = 0;
 
@@ -38,7 +38,7 @@ public class coffeeCounter {
             }
 
             double bill = price * quantity;
-            double gst = bill * 0.18; // 18% GST
+            double gst = bill * 0.18; 
             double totalAmount = bill + gst;
 
             System.out.println("\n----- BILL -----");

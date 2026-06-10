@@ -14,12 +14,10 @@ public class Election {
             System.out.print("\nEnter age (or 0 to exit): ");
             int age = scanner.nextInt();
 
-            // Special code to stop voting
             if (age == 0) {
                 break;
             }
 
-            // Check voting eligibility
             if (age >= 18) {
 
                 System.out.println("Eligible to vote!");
@@ -54,7 +52,6 @@ public class Election {
             }
         }
 
-        // Display final results
         System.out.println("\n===== Election Results =====");
         System.out.println("Candidate 1 Votes: " + candidate1Votes);
         System.out.println("Candidate 2 Votes: " + candidate2Votes);
